@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Nur Haznurul Ain Website</title>
+<style>
+{
+  box-sizing: border-box;
+}
+html {
+  background-color: hotpink;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+h2 {
+	font-family: Times new roman;
+	color: deeppink;
+}
+h4 {
+  font-family: Georgia;
+  color: darkred;
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url(IMAGES/IMAGES11.jpg);
+}
+.header h1 {
+  font-size: 50px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rosybrown;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: darkred;
+  color: white;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Nur Haznurul Ain Website</h1>
+</div>
+
+<div class="topnav">
+  <a href="WEBPAGES.html" target="_self">Home</a>
+  <a href="BIODATA.html" target="_self">Biodata</a>
+  <a href="EDUCATION.html" target="_self">Education</a>
+  <a href="EXPERIENCE.html" target="_self">Experience</a>
+  <a href="FAMILY.html" target="_self">Family</a>
+  <a href="GALLERY.html" target="_self">Gallery</a>
+  <address><a href="mailto:haznurul.ain@gmail.com" style="float:right">Contact</a></address>
+   
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>WELCOME TO MY WEBPAGES</h2>
+      <div><img src="IMAGES/IMAGES10.jpg" style="height:200px;"></div>
+      <p>Hi!</p>
+      <p>My Name is Nur Haznurul Ain binti Hamdan.</p>
+      <p>I'm a student of UiTM Machang, Kelantan. These website are intended for my IMD311 assignment</p>
+    </div>
+    <div class="card">
+      <h2>SOCIAL MEDIA</h2>
+      <h5>My Social Media account</h5>
+      <div><a href="https://www.instagram.com/nrhzlyn/?hl=en" title="Instagram nrhzlyn"><img src="IMAGES/IMAGES8.jpg" style="height: 180px"></a><a href="https://twitter.com/nrhzlyn_" title="Twitter nrhzlyn"><img src="IMAGES/IMAGES12.jpg" style="height: 200px"></a><a href="https://www.facebook.com/nurhaznurulain?fref=nf" title="Facebook Nur Haznurul Ain"><img src="IMAGES/IMAGES00.jpg" style="height: 190px"></a></div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Owner</h2>
+      <div><img src="IMAGES/IMAGES1.jpg" style="height:200px;"></div>
+      <p><ul>
+      	<li><h4>Nur Haznurul Ain</h4></li>
+      	<li><h4>20 Years old</h4></li>
+      	<li><h4>UiTM Machang, Kelantan</h4></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Listen Music First</h2>
+      <p>Some by Bolbbagan4</p>
+      <div>
+        <video width="320" height="240" controls>
+        <source src="Some.mp4" type="video/mp4">
+      </div>
+</div>
+
+</body>
+</html>
